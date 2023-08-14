@@ -15,6 +15,9 @@ usage:
     logger.error("error")
 """
 
+# 这段代码是用来初始化日志输出的，可以设置日志的等级、模块名称、日志文件路径等参数。
+
+
 import logging
 import os
 import sys
