@@ -1,6 +1,8 @@
 import pygame
 import sys
 
+# 代码是用于加载游戏所需的图片和音效资源，并创建碰撞掩码。
+
 def load():
     # 玩家不同状态下的图片路径
     PLAYER_PATH = (
