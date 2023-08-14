@@ -11,6 +11,9 @@ import torch
 from torch.autograd import Variable
 import torch.nn as nn
 
+#代码实现了一个深度强化学习的模型来玩Flappy Bird游戏。
+# 模型使用了一个卷积神经网络来学习游戏的状态和动作之间的关系，并通过训练来优化网络参数。模型使用了经验回放和目标网络的技术来提高训练效果。
+
 GAME = 'bird' # the name of the game being played for log files
 ACTIONS = 2 # number of valid actions
 GAMMA = 1 # decay rate of past observations
