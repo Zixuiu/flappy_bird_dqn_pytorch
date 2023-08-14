@@ -7,6 +7,10 @@ import pygame.surfarray as surfarray
 from pygame.locals import *
 from itertools import cycle
 
+# 代码实现了一个Flappy Bird游戏的环境。其中GameState类定义了游戏的状态和行为，包括玩家的位置、速度、得分等信息。
+# frame_step方法接受一个输入动作，更新游戏状态并返回新的状态、奖励和终止信号。getRandomPipe函数用于生成随机的管道。showScore函数用于在屏幕中央显示得分
+# checkCrash函数用于检查玩家是否与地面或管道碰撞。pixelCollision函数用于检查两个对象是否碰撞。
+
 FPS = 60
 SCREENWIDTH  = 288
 SCREENHEIGHT = 512
